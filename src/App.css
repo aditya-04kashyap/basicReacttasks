@@ -1,0 +1,33 @@
+
+.App {
+  background-color: black;
+  color: white;
+}
+
+.user-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.user-image {
+  text-align: center;
+  color: white;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
